@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		09CDE02E1B0EDF85008FD349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE02D1B0EDF85008FD349 /* AppDelegate.swift */; };
-		09CDE0301B0EDF85008FD349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE02F1B0EDF85008FD349 /* ViewController.swift */; };
 		09CDE0331B0EDF85008FD349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE0311B0EDF85008FD349 /* Main.storyboard */; };
 		09CDE0351B0EDF85008FD349 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE0341B0EDF85008FD349 /* Images.xcassets */; };
 		09CDE0381B0EDF85008FD349 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE0361B0EDF85008FD349 /* LaunchScreen.xib */; };
 		09CDE0441B0EDF85008FD349 /* karamatsuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE0431B0EDF85008FD349 /* karamatsuTests.swift */; };
+		09CDE04E1B0EE0D1008FD349 /* WatchLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE04D1B0EE0D1008FD349 /* WatchLogViewController.swift */; };
+		09CDE0501B118AA9008FD349 /* WatchLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE04F1B118AA9008FD349 /* WatchLogTableViewController.swift */; };
+		09CDE0521B118B26008FD349 /* WatchLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE0511B118B26008FD349 /* WatchLogTableViewCell.swift */; };
+		09CDE0541B11ACC3008FD349 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE0531B11ACC3008FD349 /* AppConstants.swift */; };
+		09CDE0561B12FA42008FD349 /* WatchLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE0551B12FA42008FD349 /* WatchLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		09CDE0281B0EDF85008FD349 /* karamatsu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = karamatsu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CDE02C1B0EDF85008FD349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09CDE02D1B0EDF85008FD349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09CDE02F1B0EDF85008FD349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09CDE0321B0EDF85008FD349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09CDE0341B0EDF85008FD349 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		09CDE0371B0EDF85008FD349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		09CDE03D1B0EDF85008FD349 /* karamatsuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = karamatsuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CDE0421B0EDF85008FD349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09CDE0431B0EDF85008FD349 /* karamatsuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karamatsuTests.swift; sourceTree = "<group>"; };
+		09CDE04D1B0EE0D1008FD349 /* WatchLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchLogViewController.swift; sourceTree = "<group>"; };
+		09CDE04F1B118AA9008FD349 /* WatchLogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchLogTableViewController.swift; sourceTree = "<group>"; };
+		09CDE0511B118B26008FD349 /* WatchLogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchLogTableViewCell.swift; sourceTree = "<group>"; };
+		09CDE0531B11ACC3008FD349 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		09CDE0551B12FA42008FD349 /* WatchLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,15 @@
 		09CDE02A1B0EDF85008FD349 /* karamatsu */ = {
 			isa = PBXGroup;
 			children = (
-				09CDE02D1B0EDF85008FD349 /* AppDelegate.swift */,
-				09CDE02F1B0EDF85008FD349 /* ViewController.swift */,
 				09CDE0311B0EDF85008FD349 /* Main.storyboard */,
 				09CDE0341B0EDF85008FD349 /* Images.xcassets */,
 				09CDE0361B0EDF85008FD349 /* LaunchScreen.xib */,
 				09CDE02B1B0EDF85008FD349 /* Supporting Files */,
+				09CDE0551B12FA42008FD349 /* WatchLog.swift */,
+				09CDE04D1B0EE0D1008FD349 /* WatchLogViewController.swift */,
+				09CDE04F1B118AA9008FD349 /* WatchLogTableViewController.swift */,
+				09CDE0531B11ACC3008FD349 /* AppConstants.swift */,
+				09CDE0511B118B26008FD349 /* WatchLogTableViewCell.swift */,
 			);
 			path = karamatsu;
 			sourceTree = "<group>";
@@ -90,6 +101,7 @@
 		09CDE02B1B0EDF85008FD349 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09CDE02D1B0EDF85008FD349 /* AppDelegate.swift */,
 				09CDE02C1B0EDF85008FD349 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CDE0301B0EDF85008FD349 /* ViewController.swift in Sources */,
+				09CDE04E1B0EE0D1008FD349 /* WatchLogViewController.swift in Sources */,
 				09CDE02E1B0EDF85008FD349 /* AppDelegate.swift in Sources */,
+				09CDE0561B12FA42008FD349 /* WatchLog.swift in Sources */,
+				09CDE0521B118B26008FD349 /* WatchLogTableViewCell.swift in Sources */,
+				09CDE0501B118AA9008FD349 /* WatchLogTableViewController.swift in Sources */,
+				09CDE0541B11ACC3008FD349 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
