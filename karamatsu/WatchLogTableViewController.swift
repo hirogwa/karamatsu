@@ -31,8 +31,14 @@ class WatchLogTableViewController: UITableViewController {
         }
     }
     
+    private func initVungle() {
+        var sdk = VungleSDK.sharedSDK()
+        sdk.startWithAppId(AppConstants.vungleAppId)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        initVungle()
         loadLogs()
     }
 
@@ -70,11 +76,18 @@ class WatchLogTableViewController: UITableViewController {
                     if let watchLogCell = sender as? WatchLogTableViewCell {
                         //dest.watchlogId = watchLogCell.watchLogId
                         dest.watchlog = watchLogCell.watchlog
+                        showVungleAd()
                     }
                 default: break
                 }
             }
         }
+    }
+    
+    private func showVungleAd() {
+        println("showing vungle ad")
+        var error: NSError?
+        VungleSDK.sharedSDK().playAd(self, error: &error)
     }
 
     /*

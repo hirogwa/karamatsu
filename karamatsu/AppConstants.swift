@@ -10,4 +10,5 @@ import Foundation
 
 struct AppConstants {
     static let host = "http://localhost:5005"
+    static let vungleAppId = "377298193"
 }

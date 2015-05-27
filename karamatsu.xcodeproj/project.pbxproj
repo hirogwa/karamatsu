@@ -17,6 +17,27 @@
 		09CDE0521B118B26008FD349 /* WatchLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE0511B118B26008FD349 /* WatchLogTableViewCell.swift */; };
 		09CDE0541B11ACC3008FD349 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE0531B11ACC3008FD349 /* AppConstants.swift */; };
 		09CDE0561B12FA42008FD349 /* WatchLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CDE0551B12FA42008FD349 /* WatchLog.swift */; };
+		09CDE0581B157652008FD349 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0571B157652008FD349 /* AdSupport.framework */; };
+		09CDE05A1B15765B008FD349 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0591B15765B008FD349 /* AudioToolbox.framework */; };
+		09CDE05C1B15766C008FD349 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE05B1B15766C008FD349 /* AVFoundation.framework */; };
+		09CDE05E1B157674008FD349 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE05D1B157674008FD349 /* CFNetwork.framework */; };
+		09CDE0601B15767E008FD349 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE05F1B15767E008FD349 /* CoreGraphics.framework */; };
+		09CDE0621B157686008FD349 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0611B157686008FD349 /* CoreMedia.framework */; };
+		09CDE0641B15768F008FD349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0631B15768F008FD349 /* Foundation.framework */; };
+		09CDE0661B1576AC008FD349 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0651B1576AC008FD349 /* libz.dylib */; };
+		09CDE0681B1576BC008FD349 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0671B1576BC008FD349 /* libsqlite3.dylib */; };
+		09CDE06A1B1576F1008FD349 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0691B1576F1008FD349 /* MediaPlayer.framework */; };
+		09CDE06C1B1576FB008FD349 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE06B1B1576FB008FD349 /* QuartzCore.framework */; };
+		09CDE06E1B157709008FD349 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE06D1B157709008FD349 /* StoreKit.framework */; };
+		09CDE0701B157713008FD349 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE06F1B157713008FD349 /* SystemConfiguration.framework */; };
+		09CDE0721B15771A008FD349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0711B15771A008FD349 /* UIKit.framework */; };
+		09CDE0851B157A2C008FD349 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE07E1B157A2C008FD349 /* __vungle.db */; };
+		09CDE0861B157A2C008FD349 /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE07F1B157A2C008FD349 /* vg_close.png */; };
+		09CDE0871B157A2C008FD349 /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE0801B157A2C008FD349 /* vg_cta.png */; };
+		09CDE0881B157A2C008FD349 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE0811B157A2C008FD349 /* vg_mute_off.png */; };
+		09CDE0891B157A2C008FD349 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE0821B157A2C008FD349 /* vg_mute_on.png */; };
+		09CDE08A1B157A2C008FD349 /* vg_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CDE0831B157A2C008FD349 /* vg_timer.png */; };
+		09CDE08B1B157A2C008FD349 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CDE0841B157A2C008FD349 /* VungleSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +65,28 @@
 		09CDE0511B118B26008FD349 /* WatchLogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchLogTableViewCell.swift; sourceTree = "<group>"; };
 		09CDE0531B11ACC3008FD349 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		09CDE0551B12FA42008FD349 /* WatchLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchLog.swift; sourceTree = "<group>"; };
+		09CDE0571B157652008FD349 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		09CDE0591B15765B008FD349 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		09CDE05B1B15766C008FD349 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09CDE05D1B157674008FD349 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		09CDE05F1B15767E008FD349 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09CDE0611B157686008FD349 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		09CDE0631B15768F008FD349 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09CDE0651B1576AC008FD349 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		09CDE0671B1576BC008FD349 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		09CDE0691B1576F1008FD349 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		09CDE06B1B1576FB008FD349 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		09CDE06D1B157709008FD349 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		09CDE06F1B157713008FD349 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		09CDE0711B15771A008FD349 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09CDE07E1B157A2C008FD349 /* __vungle.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = __vungle.db; sourceTree = "<group>"; };
+		09CDE07F1B157A2C008FD349 /* vg_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_close.png; sourceTree = "<group>"; };
+		09CDE0801B157A2C008FD349 /* vg_cta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_cta.png; sourceTree = "<group>"; };
+		09CDE0811B157A2C008FD349 /* vg_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_off.png; sourceTree = "<group>"; };
+		09CDE0821B157A2C008FD349 /* vg_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_mute_on.png; sourceTree = "<group>"; };
+		09CDE0831B157A2C008FD349 /* vg_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vg_timer.png; sourceTree = "<group>"; };
+		09CDE0841B157A2C008FD349 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		09CDE08C1B157A76008FD349 /* karamatsu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "karamatsu-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +94,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CDE0721B15771A008FD349 /* UIKit.framework in Frameworks */,
+				09CDE0701B157713008FD349 /* SystemConfiguration.framework in Frameworks */,
+				09CDE06E1B157709008FD349 /* StoreKit.framework in Frameworks */,
+				09CDE06C1B1576FB008FD349 /* QuartzCore.framework in Frameworks */,
+				09CDE06A1B1576F1008FD349 /* MediaPlayer.framework in Frameworks */,
+				09CDE0681B1576BC008FD349 /* libsqlite3.dylib in Frameworks */,
+				09CDE0661B1576AC008FD349 /* libz.dylib in Frameworks */,
+				09CDE0641B15768F008FD349 /* Foundation.framework in Frameworks */,
+				09CDE08B1B157A2C008FD349 /* VungleSDK.framework in Frameworks */,
+				09CDE0621B157686008FD349 /* CoreMedia.framework in Frameworks */,
+				09CDE0601B15767E008FD349 /* CoreGraphics.framework in Frameworks */,
+				09CDE05E1B157674008FD349 /* CFNetwork.framework in Frameworks */,
+				09CDE05C1B15766C008FD349 /* AVFoundation.framework in Frameworks */,
+				09CDE05A1B15765B008FD349 /* AudioToolbox.framework in Frameworks */,
+				09CDE0581B157652008FD349 /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +125,21 @@
 		09CDE01F1B0EDF85008FD349 = {
 			isa = PBXGroup;
 			children = (
+				09CDE07C1B157A2C008FD349 /* VungleSDK.embeddedframework */,
+				09CDE0711B15771A008FD349 /* UIKit.framework */,
+				09CDE06F1B157713008FD349 /* SystemConfiguration.framework */,
+				09CDE06D1B157709008FD349 /* StoreKit.framework */,
+				09CDE06B1B1576FB008FD349 /* QuartzCore.framework */,
+				09CDE0691B1576F1008FD349 /* MediaPlayer.framework */,
+				09CDE0671B1576BC008FD349 /* libsqlite3.dylib */,
+				09CDE0651B1576AC008FD349 /* libz.dylib */,
+				09CDE0631B15768F008FD349 /* Foundation.framework */,
+				09CDE0611B157686008FD349 /* CoreMedia.framework */,
+				09CDE05F1B15767E008FD349 /* CoreGraphics.framework */,
+				09CDE05D1B157674008FD349 /* CFNetwork.framework */,
+				09CDE05B1B15766C008FD349 /* AVFoundation.framework */,
+				09CDE0591B15765B008FD349 /* AudioToolbox.framework */,
+				09CDE0571B157652008FD349 /* AdSupport.framework */,
 				09CDE02A1B0EDF85008FD349 /* karamatsu */,
 				09CDE0401B0EDF85008FD349 /* karamatsuTests */,
 				09CDE0291B0EDF85008FD349 /* Products */,
@@ -94,6 +167,7 @@
 				09CDE04F1B118AA9008FD349 /* WatchLogTableViewController.swift */,
 				09CDE0531B11ACC3008FD349 /* AppConstants.swift */,
 				09CDE0511B118B26008FD349 /* WatchLogTableViewCell.swift */,
+				09CDE08C1B157A76008FD349 /* karamatsu-Bridging-Header.h */,
 			);
 			path = karamatsu;
 			sourceTree = "<group>";
@@ -122,6 +196,29 @@
 				09CDE0421B0EDF85008FD349 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09CDE07C1B157A2C008FD349 /* VungleSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				09CDE07D1B157A2C008FD349 /* Resources */,
+				09CDE0841B157A2C008FD349 /* VungleSDK.framework */,
+			);
+			name = VungleSDK.embeddedframework;
+			path = external/VungleSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		09CDE07D1B157A2C008FD349 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09CDE07E1B157A2C008FD349 /* __vungle.db */,
+				09CDE07F1B157A2C008FD349 /* vg_close.png */,
+				09CDE0801B157A2C008FD349 /* vg_cta.png */,
+				09CDE0811B157A2C008FD349 /* vg_mute_off.png */,
+				09CDE0821B157A2C008FD349 /* vg_mute_on.png */,
+				09CDE0831B157A2C008FD349 /* vg_timer.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,8 +301,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CDE08A1B157A2C008FD349 /* vg_timer.png in Resources */,
+				09CDE0881B157A2C008FD349 /* vg_mute_off.png in Resources */,
 				09CDE0331B0EDF85008FD349 /* Main.storyboard in Resources */,
 				09CDE0381B0EDF85008FD349 /* LaunchScreen.xib in Resources */,
+				09CDE0851B157A2C008FD349 /* __vungle.db in Resources */,
+				09CDE0891B157A2C008FD349 /* vg_mute_on.png in Resources */,
+				09CDE0871B157A2C008FD349 /* vg_cta.png in Resources */,
+				09CDE0861B157A2C008FD349 /* vg_close.png in Resources */,
 				09CDE0351B0EDF85008FD349 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,9 +461,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/VungleSDK.embeddedframework",
+				);
 				INFOPLIST_FILE = karamatsu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "karamatsu/karamatsu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -368,9 +478,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/VungleSDK.embeddedframework",
+				);
 				INFOPLIST_FILE = karamatsu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "karamatsu/karamatsu-Bridging-Header.h";
 			};
 			name = Release;
 		};
