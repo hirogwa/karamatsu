@@ -17,13 +17,15 @@ class WatchLogTableViewController: UITableViewController {
         let qos = Int(QOS_CLASS_USER_INITIATED.value)
         dispatch_async(dispatch_get_global_queue(qos, 0)) {
             let content = NSData(contentsOfURL: NSURL(string: url)!)
-            let contentS = NSString(data: content!, encoding: NSUTF8StringEncoding)!
-            
-            let json: AnyObject! = NSJSONSerialization.JSONObjectWithData(content!, options: NSJSONReadingOptions.MutableContainers, error: nil)
-            dispatch_async(dispatch_get_main_queue()) {
-                if let arr = json as? Array<AnyObject> {
-                    self.watchLogs = arr.map { WatchLog.newInstance($0 as! Dictionary<String, AnyObject>) }
-                    self.tableView.reloadData()
+            if content != nil {
+                let contentS = NSString(data: content!, encoding: NSUTF8StringEncoding)!
+                
+                let json: AnyObject! = NSJSONSerialization.JSONObjectWithData(content!, options: NSJSONReadingOptions.MutableContainers, error: nil)
+                dispatch_async(dispatch_get_main_queue()) {
+                    if let arr = json as? Array<AnyObject> {
+                        self.watchLogs = arr.map { WatchLog.newInstance($0 as! Dictionary<String, AnyObject>) }
+                        self.tableView.reloadData()
+                    }
                 }
             }
         }
